@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>music data</title>
+    </head>
+
+    <body>
+        <h1>Result test querying: </h1>
+        {% if error %}
+            <p>{{ error }} </p>
+        {% else %}
+            <h1>artist: {{ artist }}</h1>
+            {% for song in result %}
+                <p>{{ song['title'] }}</p>
+            {% endfor %}
+        {% endif %}
+    </body>
+</html>

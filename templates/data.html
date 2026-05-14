@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Data Visualization</title>
+        <link rel="stylesheet" href="static/index.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <div class="title-box">
+            <a class="title-link" href="/"><p class="title">Exploratory Data Analysis of Ahn's Music Taste to Identify Factors Influencing Listening Probability</p>
+            <p class="title">Interactive Data Visualization</p></a>
+        </div>
+        <div class="text-box">
+            <form action="/data" method="POST">
+                <select name="query" id="query" >
+                    <option disabled selected hidden>Select Query Type</option>
+                    <option value="key">Key</option>
+                    <option value="year">Year</option>
+                    <option value="bpm">BPM</option>
+                    <option value="artist">Artist</option>
+                    <option value="genre">Genre</option>
+                    <option value="duration">Duration</option>
+                    <option value="energy">Energy Score</option>
+                    <option value="danceability">Danceability Score</option>
+                    <option value="acousticness">Acousticness Score</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div style="height: 50vh; width: 50%;">
+            <canvas id="myChart"></canvas>
+        </div>
+        <script>
+            const labels = JSON.parse('{{ labels | tojson | safe }}');
+            const chartData = JSON.parse('{{ data | tojson | safe }}');
+
+            const data = {
+                labels: labels,
+                datasets: [{
+                    label: '{{ label }}',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: chartData,
+                }]
+            };
+
+            const config = {
+                type: 'line',
+                data: data,
+                options: { maintainAspectRatio: false }
+            };
+
+            const myChart = new Chart(
+                document.getElementById('myChart'),
+                config
+            );
+        </script>
+
+    </body>
+</html>
