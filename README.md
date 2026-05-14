@@ -82,5 +82,5 @@ Key questions being explored:
  
 ## Contact
  
-- 💼 [LinkedIn — Ahn Laurie Henry](https://www.linkedin.com/in/ahnlauriehenry/)
-- 🐙 [GitHub](https://github.com/ahnhenry)
+- [LinkedIn — Ahn Laurie Henry](https://www.linkedin.com/in/ahnlauriehenry/)
+- [GitHub](https://github.com/ahnhenry)
