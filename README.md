@@ -1,5 +1,5 @@
-# 🎧 What Makes Ahn Press Play?
-### Exploratory Data Analysis of Ahn's Music Taste to Identify Factors Influencing Listening Probability
+# Exploratory Data Analysis of Ahn's Music Taste to Identify Factors Influencing Listening Probability
+### Interactive Data Visualization
  
 ---
  
