@@ -46,8 +46,37 @@ The dataset (`ahndata.csv`) contains **552 songs** sourced from 5 of Ahn's Apple
 | Database | SQLite3 |
 | Frontend | HTML, CSS |
 | Querying | SQL (SQLite3) |
- 
+
+
 ---
+ 
+## Getting Started
+ 
+### 1. Clone the repo
+ 
+```bash
+git clone https://github.com/ahnlauriehenry/<repo-name>.git
+cd <repo-name>
+```
+ 
+### 2. Install dependencies
+ 
+```bash
+pip install flask
+```
+ 
+### 3. Run the app
+ 
+```bash
+python app.py
+```
+ 
+### 4. Open the visualization
+ 
+Visit **[http://127.0.0.1:6677/data](http://127.0.0.1:6677/data)** in your browser.
+---
+
+
 
 ## Findings
  
