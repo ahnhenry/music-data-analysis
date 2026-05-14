@@ -55,7 +55,7 @@ The dataset (`ahndata.csv`) contains **552 songs** sourced from 5 of Ahn's Apple
 ### 1. Clone the repo
  
 ```bash
-git clone https://github.com/ahnlauriehenry/<repo-name>.git
+git clone https://github.com/ahnhenry/<repo-name>.git
 cd <repo-name>
 ```
  
@@ -73,7 +73,7 @@ python app.py
  
 ### 4. Open the visualization
  
-Visit **[http://127.0.0.1:6677/data](http://127.0.0.1:6677/data)** in your browser.
+Visit **[http://127.0.0.1:6677/](http://127.0.0.1:6677/)** in your browser.
 ---
 
 
