@@ -7,9 +7,9 @@
  
 **Hypothesis:** Is Ahn's likelihood of listening to a song influenced by a specific characteristic of that song?
  
-**Purpose:** Move beyond surface-level observations like *"Ahn listens to K-Pop"* and uncover the underlying audio features — tempo, energy, valence, danceability, key, acousticness — that actually drive listening behavior.
+**Purpose:** Move beyond surface-level observations like *"Ahn listens to K-Pop"* and uncover the underlying audio features (tempo, energy, valence, danceability, key, acousticness) that actually drive listening behavior.
  
-**Approach:** Ahn's most-played playlist was exported from Apple Music and enriched with musical metadata (BPM, key, mode, energy, danceability, valence, acousticness, time signature) to build a queryable dataset. The data was then analyzed and visualized interactively to surface patterns and test the hypothesis.
+**Approach:** Ahn's most-played playlists was exported from Apple Music and enriched with musical metadata (BPM, key, mode, energy, danceability, valence, acousticness, time signature) to build a queryable dataset. The data was then analyzed and visualized interactively to surface patterns and test the hypothesis.
  
 ---
  
